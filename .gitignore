@@ -1,5 +1,9 @@
+# TODO should not need this, because should be build/swagger instead of src/swagger, by default!
+src/swagger
+
 .gradle
 build/
+bin/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -9,3 +13,8 @@ gradle-app.setting
 
 # Cache of project
 .gradletasknamecache
+
+# Eclipse
+.settings/
+.project
+.classpath
